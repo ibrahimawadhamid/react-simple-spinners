@@ -2,6 +2,13 @@
 
 Loading Animations for React Apps
 
+## Installation
+
+```javascript
+npm install react-simple-spinners
+```
+
+
 ## Usage
 
 ```javascript
