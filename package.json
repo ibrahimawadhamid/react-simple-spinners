@@ -1,6 +1,6 @@
 {
   "name": "react-simple-spinners",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Loading Spinners for React Apps",
   "homepage": "https://github.com/ibrahimawadhamid/react-simple-spinners",
   "main": "build/index.js",
