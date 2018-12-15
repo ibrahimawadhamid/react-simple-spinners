@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Bars.css';
 
 const Bars = () => (
-    <div className="loader">Loading...</div>
+    <div className="Bars">Loading...</div>
 );
 
-export default Bars
+export default Bars;

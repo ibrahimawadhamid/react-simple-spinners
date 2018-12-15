@@ -1,20 +1,17 @@
 import React, {Component} from 'react';
 import Bars from './Bars/Bars';
+import Spinner1 from './Spinner1/Spinner1';
 
 class LoadingAnimation extends Component {
-    render () {
-        const animationType = this.props.type;
-        let animation = null;
-        switch (animationType) {
+    render() {
+        switch (this.props.type) {
             case 'Bars':
-                animation = <Bars/>;
-                break;
+                return (<Bars/>);
+            case 'Spinner1':
+                return (<Spinner1/>);
             default:
-                animation = <Bars/>;
+                return (<Bars/>);
         }
-        return (
-            animation
-        );
     }
 }
 
